@@ -1,8 +1,7 @@
 var today = new Date();
-
-var pos1 = 270;
-var pos2 = 270;
-var pos3 = 270;
+var pos1 = 270 + ((today.getSeconds()/60)*360);
+var pos2 = 270 + ((today.getMinutes()/60)*360);
+var pos3 = 270 + ((today.getHours()/12)*360);
 
 const rotateS = (hand) => {
     pos1 = pos1 + 6;
