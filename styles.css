@@ -36,17 +36,14 @@
     height: 3px;
     width: 70px;
     background-color: white;
-    transform: rotate(277deg);
 }
 #minute{
     height: 4px;
     width: 60px;
     background-color: white;
-    transform: rotate(37deg);
 }
 #hour{
     height: 5px;
     width: 50px;
     background-color: white;
-    transform: rotate(97deg);
 }
