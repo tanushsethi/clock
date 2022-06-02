@@ -1,3 +1,5 @@
+var today = new Date();
+
 var pos1 = 270;
 var pos2 = 270;
 var pos3 = 270;
